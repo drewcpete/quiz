@@ -18,29 +18,64 @@
     <div id="furnitureRadio">
       <div class="radio">
         <label>
-          <input type="radio" name="flavor" value="chocolate" checked>
+          <input type="radio" name="flavor" value="1">
           furniture
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="flavor" value="vanilla">
+          <input type="radio" name="flavor" value="2">
           chair
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="flavor" value="cookiesandcream">
+          <input type="radio" name="flavor" value="3">
           wall
         </label>
       </div>
     </div>
     <div class="form-group">
-      <label for="color">What is your favorite color?</label>
+      <label for="#color">What is your favorite color?</label>
       <input type="color" class="form-control" id="color">
     </div>
+    <div class="form-group">
+      <label for="#nameSelect">Please pick your current legal name:</label>
+      <select id="nameSelect"class="form-control">
+        <option value="1">Bob</option>
+        <option value="2">Ran</option>
+        <option value="3">Floor</option>
+        <option value="4">What is a name?</option>
+      </select>
+    </div>
     <button type="submit" class="btn">Submit</button>
+
+
   </form>
+  <div class="modals">
+    <div class="modal" id="friendModal">
+      <div id="friend" class="modal-content">
+        <span class="close">&times;</span>
+        <img src="img/friend.jpeg" alt="">
+      </div>
+    </div>
+    <div class="modal" id="boatModal">
+      <div id="boat" class="modal-content">
+        <span class="close">&times;</span>
+        <img src="img/maxr.jpeg" alt="">
+      </div>
+    </div>
+    <div class="modal" id="tjModal">
+      <div id="tj" class="modal-content">
+        <span class="close">&times;</span>
+        <img src="img/Trader.jpeg" alt="">
+      </div>
+    </div>
+
+    </div>
+
+    </div>
+  </div>
 </body>
 
 </html>
